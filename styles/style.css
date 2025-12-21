@@ -172,11 +172,10 @@
     }
 
 .card-home {
-    display:
-    flex;
-    flex-wrap:
-    nowrap;margin-top:
-    25px;gap: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+    gap: 24px;
     }
 
 .card {
