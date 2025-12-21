@@ -117,7 +117,7 @@
     margin-left: 615px;
     }
 
- .cover-description {
+.cover-description {
    display: flex;
    margin: 0 auto;
    margin-top: 106px;
@@ -171,11 +171,12 @@
     text-transform: uppercase;
     }
 
-.card-home { 
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 25px;
-    gap: 24px;
+.card-home {
+    display:
+    flex;
+    flex-wrap:
+    nowrap;margin-top:
+    25px;gap: 24px;
     }
 
 .card {
@@ -197,14 +198,14 @@
     background-position:  50%;
     }
 
- .card-type-book {
+.card-type-book {
      background-image: url("../images/card-lot-02.jpg");
      background-size: cover;
      background-repeat: no-repeat;
      background-position:  50%;
      }
 
- .card-type-picture {
+.card-type-picture {
     background-image: url("../images/card-lot-03.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,7 +214,7 @@
 
  
 
- .card-title {
+.card-title {
     text-decoration: underline;
     text-decoration-style: solid;
     font-size: 22px;
