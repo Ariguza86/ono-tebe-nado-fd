@@ -9,7 +9,7 @@
 .header-menu {
     display: flex;
     gap: 32px;
-    font-size: 18.1px;
+    font-size: 18px;
     }
 
 .links-list {
@@ -55,7 +55,7 @@
     max-width: 240px;
     border-width: 1px;
     font-size: 18px;
-    line-height: 24.3px;
+    line-height: 1.4;
     }
 
 .contacts {
@@ -71,13 +71,13 @@
     background-position:  50%;
     margin-bottom: 180px;
     width: 1100px;
-    height: 757px;
-    padding: 165px 50px 207px 50px;
+    min-height: 757px;
+    padding: 165px 50px 50px;
     z-index: 0;
     }
+
 .cover-title {
     width: 1000px;
-    height: 385px;
     font-weight: 700;
     font-size: 100px;
     color: white;
@@ -97,39 +97,37 @@
 
 .aligned-text_left {
     display: flex;
-    width: 286px;
-    height: 115px;
+    max-width: 100%;
+    line-height: normal;
     }
 
 .aligned-text_center {
     display: flex;
-    width: 339px;
-    height: 115px;
-    margin: 0 auto;
-    margin-top: 20px;
+    max-width: 100%;
+    line-height: normal;
+    margin-top: 18px;
+    margin-left: 331px;
     }
 
 .aligned-text_right {
     display: flex;
-    width: 387px;
-    height: 115px;
-    margin-top: 20px;
-    margin-left: 615px;
+    max-width: 100%;
+    line-height: normal;
+    margin-top: 17px;
+    margin-left: 613px;
     }
 
 .cover-description {
    display: flex;
    margin: 0 auto;
-   margin-top: 106px;
+   margin-top: 105px;
    white-space: nowrap;
    }
 
 .cover__description-text {
-    top: 668px;
-    left: 50px;
     font-weight: 400;
     font-size: 22px;
-    line-height: 28px;
+    line-height: normal;
     text-transform: uppercase;
     text-align: center;
     word-spacing: 19px;
@@ -141,7 +139,7 @@
     width: 256px;
     height: 51px;
     border-width: 1px;
-    border-top-style: dashed;
+    border-top-style: solid;
     border-color: white;
     font-weight: 500;
     font-size: 22px;
@@ -156,7 +154,8 @@
      display:inline-block;
      position: relative;
      width: 1052px;
-     height: 723px;
+     min-height: 723px;
+     padding: 0 0 52px 0;
      gap: 24px;
      margin-left: 24px;
      color: rgb(0, 0, 0);
@@ -167,13 +166,13 @@
     display: flex;
     margin-left: 40px;
     font-size: 40px;
-    line-height: 50px;
+    line-height: normal;
     text-transform: uppercase;
     }
 
 .card-home {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin-top: 25px;
     gap: 24px;
     }
@@ -183,37 +182,29 @@
     flex-direction: column;
     justify-content:space-between;
     position: relative;
-     width: 334px;
-    height:596px;
-    padding: 48px 40px;
+    width: 334px;
+    min-height: 596px;
+    padding: 47px 41px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position:  50%; 
     z-index: 0;
     }
 
 
 .card-type-film {
     background-image: url("../images/card-lot-01.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:  50%;
     }
 
 .card-type-book {
      background-image: url("../images/card-lot-02.jpg");
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position:  50%;
-     }
+    }
 
 .card-type-picture {
     background-image: url("../images/card-lot-03.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:  50%;
     }
 
- 
-
-.card-title {
+ .card-title {
     text-decoration: underline;
     text-decoration-style: solid;
     font-size: 22px;
@@ -227,11 +218,15 @@
     color: white;
     }
 
+.card-link{
+    text-decoration: none;
+    }
+
 .more {
     display: flex;
-    position: absolute;
     bottom: 0;
     margin-left: 40px;
+    margin-top: 30px;
    }
    
 .lots__look-more-link {
@@ -242,8 +237,7 @@
 .about {
     display: flex;
     width: 1052px;
-    height: 595px;
-    margin-top: 120px;
+    margin-top: 68px;
     margin-bottom: 180px;
     margin-left: 24px;
     }    
@@ -276,7 +270,6 @@
     flex-direction: column;
     justify-content: space-between;
     min-width: 693px;
-    min-height: 449px;
     margin-top: 133px;
     margin-left: 72px;
     }
@@ -290,6 +283,7 @@
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    margin-top: 100px;
     gap: 25px;
     }
 
@@ -298,7 +292,8 @@
     grid-template-columns: 1fr min-content 1fr;
     gap: 178px;
     width: 1100px;
-    Height: 180px;
+    margin-top: 180px;
+    padding: 0 50px 82px 50px;
     }
 
 .footer-adress {
@@ -344,9 +339,7 @@
 
 .footer-social-list {
     display: flex;
-    flex-direction: row;
     width: 240px;
-    height: 48px;
     gap: 48px;
     }
 
