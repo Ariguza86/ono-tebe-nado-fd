@@ -200,7 +200,7 @@
     background-image: url("../images/card-lot-03.jpg");
     }
 
- .card-title {
+.card-title {
     text-decoration: underline;
     text-decoration-style: solid;
     font-size: 22px;
@@ -296,7 +296,10 @@
     text-align: center;
     }
 
-
+.links-list-footer {
+    display:flex;
+    flex-direction: column;
+    }
 
 .footer-social-list {
     display: flex;
